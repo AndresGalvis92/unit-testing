@@ -1,14 +1,19 @@
-#CREAR PORYECTO Node.js
+README.md
+# crear proyecto node.js
 npm init -y
-# inicializar proyecto git
+# inicializar proyecto git en local
 git init
 # ejecutar archivo app.js
 npm run start
-
+# configuracion inicial de git
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+# verificar informacion asociada a git
 git config --list
 git config user.name
 git config user.email
-
-# configuracion inicial git
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+# commit de los cambios
+git status
+git add.
+git commit -m "comentario-aqui"
+git push origin main

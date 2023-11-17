@@ -4,9 +4,13 @@
   "description": "npm init -y\r # inicializar proyecto git\r git init\r # ejecutar archivo app.js\r npm run start",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
